@@ -9,6 +9,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/e285ff604a.css">
+<style>
+	#form {
+		background: url(assets/img/keyboard-white.jpg), #fff;
+		background-repeat:no-repeat;
+		background-position: 0 center;
+		padding: 40px 0px;
+	}
+</style>
 </head>
 <body>
 <!-- header -->
@@ -24,35 +32,37 @@
 	</nav>
 </header>
 <!-- main content -->
-	<container class="indexcontainer">
-		<section>
-				<img src="assets/img/typing.jpg" style="padding-top: 30px;">
-				<h1>Contact Us</h1>
-				<form>
-					<label>
-						Your Name (required)<br>
-						<input type="text" name="nm" placeholder="Name" required>
-					</label>
-					<br>
-					<label>
-						Email (required)<br>
-						<input type="email" name="em" placeholder="name@gmail.com" required>
-					</label>
-					<br>
-					<label>
-						Subject (required)<br>
-						<textarea name="subject" placeholder="Inquiry" required></textarea>
-					</label>
-					<br>
-					<label>
-						Message (required)<br>
-						<textarea name="message" placeholder="Message" required></textarea>
-					</label>
-					<br>
-					<button type="button">Submit</button>
-				</form>
-		</section>
-	</container> 
+	<div id="form">
+		<container class="indexcontainer">
+			<section>
+					<img src="assets/img/typing.jpg" style="padding-top: 30px;">
+					<h1>Contact Us</h1>
+					<form style="padding-bottom: 50px;">
+						<label>
+							Your Name (required)<br>
+							<input type="text" name="nm" placeholder="Name" required>
+						</label>
+						<br>
+						<label>
+							Email (required)<br>
+							<input type="email" name="em" placeholder="name@gmail.com" required>
+						</label>
+						<br>
+						<label>
+							Subject (required)<br>
+							<textarea name="subject" placeholder="Inquiry" required></textarea>
+						</label>
+						<br>
+						<label>
+							Message (required)<br>
+							<textarea name="message" placeholder="Message" required></textarea>
+						</label>
+						<br>
+						<button type="button">Submit</button>
+					</form>
+			</section>
+		</container>
+	</div>
 <!-- footer -->
 	<footer class="footer">
 		<h3>&copy 2021 Robert Berry Enterprise</h3>
