@@ -14,7 +14,10 @@
 		background: url(assets/img/keyboard-white.jpg), #fff;
 		background-repeat:no-repeat;
 		background-position: 0 center;
-		padding: 40px 0px;
+		padding: 0px 100px;
+		}
+	#white {
+		background: #fff;
 	}
 </style>
 </head>
@@ -33,35 +36,37 @@
 </header>
 <!-- main content -->
 	<div id="form">
-		<container class="indexcontainer">
-			<section>
-					<img src="assets/img/typing.jpg" style="padding-top: 30px;">
-					<h1>Contact Us</h1>
-					<form style="padding-bottom: 50px;">
-						<label>
-							Your Name (required)<br>
-							<input type="text" name="nm" placeholder="Name" required>
-						</label>
-						<br>
-						<label>
-							Email (required)<br>
-							<input type="email" name="em" placeholder="name@gmail.com" required>
-						</label>
-						<br>
-						<label>
-							Subject (required)<br>
-							<textarea name="subject" placeholder="Inquiry" required></textarea>
-						</label>
-						<br>
-						<label>
-							Message (required)<br>
-							<textarea name="message" placeholder="Message" required></textarea>
-						</label>
-						<br>
-						<button type="button">Submit</button>
-					</form>
-			</section>
-		</container>
+		<div id="white">
+			<container class="indexcontainer">
+				<section style="margin-top: 30px;">
+						<img src="assets/img/typing.jpg">
+						<h1>Contact Us</h1>
+						<form style="padding-bottom: 50px;">
+							<label>
+								Your Name (required)<br>
+								<input type="text" name="nm" placeholder="Name" required>
+							</label>
+							<br>
+							<label>
+								Email (required)<br>
+								<input type="email" name="em" placeholder="name@gmail.com" required>
+							</label>
+							<br>
+							<label>
+								Subject (required)<br>
+								<textarea name="subject" placeholder="Inquiry" required></textarea>
+							</label>
+							<br>
+							<label>
+								Message (required)<br>
+								<textarea name="message" placeholder="Message" required></textarea>
+							</label>
+							<br>
+							<button type="button">Submit</button>
+						</form>
+				</section>
+			</container>
+		</div>
 	</div>
 <!-- footer -->
 	<footer class="footer">
