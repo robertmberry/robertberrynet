@@ -37,6 +37,9 @@ h2 {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+.yellow {
+	color: #F5EB0E;
+}
 h3 {
     font-size: 16px;
 	margin-top: 20px;
@@ -102,7 +105,7 @@ nav ul {
 }
 nav li {
 	display:inline-block;
-	
+
 }
 nav a {
 	text-decoration:none;
@@ -122,7 +125,7 @@ footer {
 	border-top: #000 solid 15px;
 	padding-top: 15px;
 	text-align: center;
-} 
+}
 .fa{
 	text-decoration: none;
 	padding: 5px;
@@ -137,9 +140,8 @@ footer {
 	margin: 0 auto;
 }
 .contact {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 30px auto 0 0;
+	max-width: 1000px;
+	margin: 30px auto;
 }
 .c20 {
 	width:20%;
