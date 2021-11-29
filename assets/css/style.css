@@ -94,6 +94,14 @@ button {
 
 /* nav */
 
+#logo {
+	font-size: 25px;
+	color: #ec2425;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+	}
 .header {
 	border-bottom: #000 solid 15px;
 }
