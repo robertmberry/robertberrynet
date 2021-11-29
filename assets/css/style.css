@@ -8,7 +8,7 @@ font-family: 'Cabin', sans-serif;
 /*
 #ec2425 - red
 #3a53a3 - blue
-#F5EB0E - yellow
+#f5eb0e - yellow
 */
 
 /* presets */
@@ -37,8 +37,8 @@ h2 {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-.yellow {
-	color: #F5EB0E;
+.white {
+	color: #fff;
 }
 h3 {
     font-size: 16px;
@@ -51,6 +51,9 @@ img {
 a {
 	text-decoration: none;
 	color: #3a53a3;
+}
+a:hover {
+	color: #ec2425;
 }
 #about, .card {
 	text-align: justify;
@@ -84,19 +87,22 @@ textarea {
     font-size: 18px;
 }
 button {
-    color: white;
+    color: #f5eb0e;
     background-color: black;
     font-size: 18px;
     padding: 12px 12px;
     margin: 10px 0;
-    border: 2px solid black;
+    border: 2px solid #fff;
+}
+button:hover {
+    color: #fff;
+	transform: scale(1.01, 1.01);
+    border: 2px solid #ec2425;
 }
 
 /* nav */
 
 #logo {
-	font-size: 25px;
-	color: #ec2425;
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -127,7 +133,7 @@ nav a {
 	margin-right: 15px;
 }
 nav a:hover {
-	color:#F5EB0E;
+	color:#f5eb0e;
 	transform: scale(1.15, 1.15);
 }
 

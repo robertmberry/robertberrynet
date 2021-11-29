@@ -11,24 +11,24 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/e285ff604a.css">
 <style>
 	#hero {
-		background: url(assets/img/keyboard-white.jpg), #fff;
+		background: url(assets/img/white.jpg), #fff;
 		background-repeat:no-repeat;
 		background-position: 0 center;
 		padding: 40px 0px;
 	}
+	#content {
+		background: url(assets/img/black.jpg), #000;
+		background-repeat:no-repeat;
+		background-position: 0 center;
+		padding: 0px 0px;
+	}
 	#contact {
-		background: url(assets/img/keyboard-white.jpg), #fff;
+		background: url(assets/img/white.jpg), #fff;
 		background-repeat:no-repeat;
 		background-position: 0 center;
 		padding: 40px 0px;
 		margin-top: 0%;
-	}	
-	#content {
-		background: url(assets/img/code.jpg), #fff;
-		background-repeat:no-repeat;
-		background-position: 0 center;
-		padding: 0px 0px;
-	}	
+	}		
 	.textright {
 		text-align: justify;
 		padding-left: 20px;
@@ -54,13 +54,13 @@
 	<container>
 		<header>
 			<div>
-				<div id="logo"><img src="assets/img/logo.gif" width="250px"></div>
+				<div id="logo"><a href="index.html"><img src="assets/img/logo.gif" width="250px"></a></div>
 				<div><img class="header" src="assets/img/header.jpg" width="100%"></div>
 				<nav>
-					<ul>
+					<ul style="padding-right: 25px;">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="websites.html">Website</a></li>
+						<li><a href="websites.html">Websites</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>	
@@ -70,16 +70,15 @@
 		<section id="hero" style="padding-top: 30px;">
 			<div>
 				<div>
-					<img class="indexcontainer" src="assets/img/index.jpg" style="padding-bottom: 30px;">
-					<h2 class="c100 indexcontainer">Robert Berry is a skilled front-end developer</h2>
-					<p class="indexcontainer">With full-stack web development experience focusing on front end programming languages including HTML, CSS, Javascript, and jQuery, along with back end development concepts, database design, PHP, and XML and JSON.</p>
+					<h1 class="c100 indexcontainer">Robert Berry is a skilled front-end developer</h2><br>
+					<p class="indexcontainer" style="text-align: justify;">With full-stack web development experience focusing on front end programming languages including HTML, CSS, Javascript, and jQuery, along with back end development concepts, database design, PHP, and XML and JSON.</p><br>
+					<img class="indexcontainer" src="assets/img/index.jpg">		
 				</div>
 			</div>
 		</section>
 <!-- main content -->
 		<section id="content">
-			<div class="indexcontainer">
-				<h2 class="yellow c100">Robert Berry is a skilled front-end developer</h2>
+			<div>
 				<section class="indexcontainer">
 					<div class="c50">
 						<div class="cardleft">
@@ -88,16 +87,15 @@
 					</div>
 					<div class="c50">
 						<div class="textright">
-							<p class="yellow">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam accusamus eos et magni, natus quam tempora ratione. Illum nisi quasi maxime vel quo, velit ea distinctio, ut dolorum sint impedit!
+							<h2 class="white">Web Development</h2>
+							<p class="white">As full stack engineers, we do development best. Our code is worry-free, scalable, updatable and robust. We have years of best practice under our belts and can efficiently build out even the most complex functionalities. For more about our stack expertise, schedule a consultation today.
 							</p>
 						</div>
 					</div>
 					<div class="c50">
 						<div class="textleft">
-							<p class="yellow">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam accusamus eos et magni, natus quam tempora ratione. Illum nisi quasi maxime vel quo, velit ea distinctio, ut dolorum sint impedit!
-							</p>
+							<h2 class="white">UX/UI Design</h2>
+							<p class="white">We bring your brand to life with an engaging purpose. Whether it’s digitizing business operations, establishing a web presence, facilitating business growth, optimizing web performance, or maximizing customer reach.</p>
 						</div>
 					</div>
 					<div class="c50">
@@ -112,9 +110,8 @@
 					</div>
 					<div class="c50">
 						<div class="textright">
-							<p class="yellow">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam accusamus eos et magni, natus quam tempora ratione. Illum nisi quasi maxime vel quo, velit ea distinctio, ut dolorum sint impedit!
-							</p>
+							<h2 class="white">Content Creation</h2>
+							<p class="white">Content and messaging is essential for gaining traction with a customer or audience. Resonate with audiences through customer-centric messaging and engaging design.</p>
 						</div>
 					</div>
 				</section>
@@ -123,7 +120,7 @@
 			<section id="contact">
 				<div class="c100 contact">
 					<h2>Contact</h2>
-					<p>I am happy to provide a free consultation today</p>
+					<p>I am happy to provide a free consultation today!</p>
 					<p><a href="contact.html"><button type="button">Contact</button></a></p>
 				</div>
 			</section>
